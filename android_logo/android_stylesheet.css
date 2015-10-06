@@ -1,0 +1,140 @@
+.android
+{
+	height: 600px;
+	width: 600px;
+	background-color:  grey;
+	border-radius:  30px;
+	border: 2px dashed red;
+}
+
+.head
+{
+	height: 100px;
+	width: 220px;
+	background-color: #A4CA39;
+	margin: auto;
+	top:  100px;
+	border-top-left-radius:  110px;
+	border-top-right-radius:  110px;
+	position: relative;
+}
+
+.left_eye
+{
+	background-color:  white;
+	height: 20px;
+	width: 20px;
+	border-radius:  20px;
+	left: 50px;
+	float: left;
+	position: absolute;
+	top: 42px;
+}
+
+.right_eye
+{
+	background-color:  white;
+	height: 20px;
+	width: 20px;
+	border-radius:  20px;
+	right: 50px;
+	float: right;
+	position: absolute;
+	top: 42px;
+}
+
+.left_antler
+{
+	width: 6px;
+	height: 50px;
+	border-radius:  3px;
+	transform: rotate(-30deg);
+	background-color: #A4CA39;
+	top: -34px;
+	left: 50px;
+	position: absolute;
+	float: left;
+}
+
+.right_antler
+{
+	width: 6px;
+	height: 50px;
+	border-radius: 3px;
+	transform: rotate(30deg);
+	background-color: #A4CA39;
+	top: -34px;
+	right: 50px;
+	position: absolute;
+	float: right;
+}
+
+.body
+{
+	width: 220px;
+	height: 184px;
+	top: 110px;
+	margin: auto;
+	position: relative;
+	background-color: #A4CA39;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.left_hand
+{
+	width: 50px;
+	height: 150px;
+	position:absolute;
+	background-color: #A4CA39;
+	left:-58px;
+	border-radius: 25px;
+}
+
+.right_hand
+{
+	width: 50px;
+	height: 150px;
+	position:absolute;
+	background-color: #A4CA39;
+	right:-58px;
+	border-radius: 25px;
+}
+
+.left_leg
+{
+	width: 50px;
+	height: 80px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 182px;
+	left: 45px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.right_leg
+{
+	width: 50px;
+	height: 80px;
+	background-color: #A4CA39;
+	position: absolute;
+	top: 182px;
+	right: 45px;
+	border-radius: 0px 0px 25px 25px;
+}
+
+.head:hover
+{
+	transform: rotate(-5deg) translate(-4px,-8px);
+}
+
+.left_hand:hover
+{
+	transform: rotate(10deg) translate(-4px,-4px);
+}
+
+.right_hand:hover
+{
+	transform: rotate(-10deg) translate(4px,4px);
+}
+
+
